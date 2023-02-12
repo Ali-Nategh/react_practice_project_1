@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1%;
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*     height: 100vh; */
+}
+
+.container {
+    margin:  2% auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: #1A1B21;
+    width: 317px;
+    height: 780px;
+    border-radius: 10px;
+    max-height: 90vh;
+}
+
+main > img {
+    width: 317px; 
+    height: 317px; 
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    object-position: 25% 25%; 
+}
+
+.main--title {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 25px;
+    text-align: center;
+}
+
+.main--job {
+    color: #F3BF99;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12.8px;
+    text-align: center;
+}
+
+.main--link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.main--buttons {
+    display: flex;
+    width: 317;
+    justify-content: center;
+    align-content: center;
+}
+
+.button {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: #1A1B21;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-size: 14px;
+}
+.button1 {
+  background-color: #D9D9DB; 
+  color: black; 
+  border: 1px solid #D9D9DB;
+}
+.button1:hover {
+  background-color: #fa3412;
+  color: black;
+}
+.button2 {
+  background-color: #D9D9DB; 
+  color: black; 
+  border: 1px solid #D9D9DB;
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: black;
+}
+
+.my-info {
+    flex:2;
+    padding: 10px 0px;
+    margin: 0px;
+    max-height: 250px;
+    min-height: 200px;
+}
+
+.titles {
+    padding: 0px 36px;
+    margin: 10px 0px 0px 0px;
+    color: #F5F5F5;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.parags {
+    padding: 0px 36px;
+    margin: 10px 0px 0px 0px;
+    color: #DCDCDC;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.footer {
+    flex: 1;
+    margin: auto;
+    height: 64px;
+    width: 317px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    background: #161619;
+    border-radius: 00px 0px 10px 10px;
+}
+
+nav > a > img {
+    width: 30px;
+}
